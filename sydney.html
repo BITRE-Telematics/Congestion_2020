@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Sydney |  Congestion Report 2020</title>
+<meta name="author" content="Richard Green and Weihua Chen">
+<meta name="description" content="Note: Ratio of median travel time to best (shortest) travel time for each route. The figure below shows all 13 selected Sydney freight vehicle routes and an index of the median excess travel time...">
+<meta name="generator" content="bookdown 0.24 with bs4_book()">
+<meta property="og:title" content="Sydney |  Congestion Report 2020">
+<meta property="og:type" content="book">
+<meta property="og:image" content="/media/image124.jpeg">
+<meta property="og:description" content="Note: Ratio of median travel time to best (shortest) travel time for each route. The figure below shows all 13 selected Sydney freight vehicle routes and an index of the median excess travel time...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Sydney |  Congestion Report 2020">
+<meta name="twitter:description" content="Note: Ratio of median travel time to best (shortest) travel time for each route. The figure below shows all 13 selected Sydney freight vehicle routes and an index of the median excess travel time...">
+<meta name="twitter:image" content="/media/image124.jpeg">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/header-attrs-2.11/header-attrs.js"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><link href="libs/_Roboto-0.4.0/font.css" rel="stylesheet">
+<link href="libs/_Roboto%20Mono-0.4.0/font.css" rel="stylesheet">
+<script src="libs/bs3compat-0.3.1/transition.js"></script><script src="libs/bs3compat-0.3.1/tabs.js"></script><script src="libs/bs3compat-0.3.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS -->
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title=""><div class="inline-figure">
+<img src="media/bitre.png" style="width:100.0%">
+Congestion Report 2020</div></a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">At a glance</a></li>
+<li><a class="" href="citywide-congestion-index-results.html">Citywide congestion index results</a></li>
+<li><a class="active" href="sydney.html">Sydney</a></li>
+<li><a class="" href="melbourne.html">Melbourne</a></li>
+<li><a class="" href="brisbane.html">Brisbane</a></li>
+<li><a class="" href="adelaide.html">Adelaide</a></li>
+<li><a class="" href="perth.html">Perth</a></li>
+<li><a class="" href="appendices-and-references.html">Appendices and References</a></li>
+</ul>
+
+        <div class="book-extra">
+          
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="sydney" class="section level1 unnumbered">
+<h1>Sydney<a class="anchor" aria-label="anchor" href="#sydney"><i class="fas fa-link"></i></a>
+</h1>
+<div class="inline-figure">
+<img src="media/image12.PNG" style="width:100.0%">
+Note: Ratio of median travel time to best (shortest) travel time for each route.</div>
+<p>The figure below shows all 13 selected Sydney freight vehicle routes and an index of the median excess travel time ratio (METR) – i.e. the ratio of median travel time to best (shortest) travel time – across each route.</p>
+<p>The figure below shows changes in the METRs and MEURs between 2019 and 2020 across each of the 13 selected Sydney freight vehicle routes. Reductions in travel time congestion were observed across almost all routes in Sydney but were most apparent on motorway routes, particularly those that in typical years have strong peaks related to commuter traffic. The city-bound directions on the M1 South and M5 are among these, but are less important in the freight network of the city than the M4 and M7, which saw smaller declines.</p>
+<p>Decreases in travel time uncertainty were less consistent but fell on the most highly-weighted routes and in the city-wide measure.</p>
+<p>Several routes had a deeper reduction in morning peaks than afternoon peaks before 5pm, which became the most congested time of day. This may be because of more lasting reductions in commuting trips than in school-related travel.</p>
+<div class="inline-figure"><img src="media/image13.PNG" style="width:100.0%"></div>
+<hr>
+<div id="a22---glebe-to-liverpool-liverpool-to-glebe" class="section level2 unnumbered">
+<h2>A22 - Glebe to Liverpool / Liverpool to Glebe<a class="anchor" aria-label="anchor" href="#a22---glebe-to-liverpool-liverpool-to-glebe"><i class="fas fa-link"></i></a>
+</h2>
+<p>This route follows surface roads between the inner city and the south west of Sydney via Ashfield and important logistics sites around Chullora. It is known by various names along its extent, including Parramatta Road, Liverpool Road and also as the Hume Highway for most of its length.</p>
+<div class="inline-figure"><img src="media/image23.png" style="width:100.0%"></div>
+<div class="inline-table"><table style="width:100%;" class="table table-sm">
+<colgroup>
+<col width="14%">
+<col width="11%">
+<col width="18%">
+<col width="4%">
+<col width="20%">
+<col width="19%">
+<col width="4%">
+<col width="6%">
+</colgroup>
+<thead><tr class="header">
+<th>Direction</th>
+<th>Best travel time</th>
+<th>Longest median travel time</th>
+<th>METR</th>
+<th>Least uncertainty range</th>
+<th>Most uncertainty range</th>
+<th>MEUR</th>
+<th>Distance</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td>Glebe to Liverpool</td>
+<td>0:39:08</td>
+<td>0:49:03</td>
+<td>1.092</td>
+<td>0:23:16</td>
+<td>0:46:05</td>
+<td>1.273</td>
+<td>29.2</td>
+</tr>
+<tr class="even">
+<td>Liverpool to Glebe</td>
+<td>0:40:05</td>
+<td>0:47:22</td>
+<td>1.077</td>
+<td>0:22:45</td>
+<td>0:38:42</td>
+<td>1.356</td>
+<td>29.3</td>
+</tr>
+</tbody>
+</table></div>
+<p>The best travel times and lowest uncertainty travelling from Glebe to Liverpool were at 2am and 5am at just over 39 minutes and an interquartile range of 23 minutes, 2 and 3 minutes less than 2019. The longest travel times and most uncertain travel times were in the afternoon peak at 4pm with a median travel time of 49 minutes and an interquartile range of over 46 minutes, 2 minutes less and 1.5 minutes longer than 2019, respectively. Delays were apparent on Parramatta Road in particular.</p>
+<p>The best travel times and lowest uncertainty travelling from Liverpool to Glebe were at 5am with a median travel time of 40 minutes and an interquartile range of 23 minutes, within a minute of 2019 levels. The longest travel times and greatest uncertainty were in the afternoon peak at 3 and 4 pm with the median travel time 47 minutes and an interquartile range of 38.5 minutes, down 4 and 10 minutes. Unlike the journey leaving the CBD (Glebe), travel into the CBD showed peaks in uncertainty in both the morning and afternoon, with delays most pronounced around the intersection of Liverpool and Parramatta Roads in Ashfield and near Canley Vale.</p>
+<div class="inline-figure"><img src="media/image24.PNG" style="width:100.0%"></div>
+</div>
+<div id="a28---casula-to-m2-motorway-m2-motorway-to-casula" class="section level2 unnumbered">
+<h2>A28 - Casula to M2 Motorway / M2 Motorway to Casula<a class="anchor" aria-label="anchor" href="#a28---casula-to-m2-motorway-m2-motorway-to-casula"><i class="fas fa-link"></i></a>
+</h2>
+<p>This surface route traverses much of Western Sydney, from the intersection of the M2 and Pennant Hills Road to the intersection of the Hume Motorway and Camden Velley Way. It passes Wentworthville, Fairfield West, Liverpool and Casula and crosses the A44, M4 and M5 routes.</p>
+<div class="inline-figure"><img src="media/image25.png" style="width:100.0%"></div>
+<div class="inline-table"><table style="width:100%;" class="table table-sm">
+<colgroup>
+<col width="14%">
+<col width="11%">
+<col width="18%">
+<col width="4%">
+<col width="20%">
+<col width="19%">
+<col width="4%">
+<col width="6%">
+</colgroup>
+<thead><tr class="header">
+<th>Direction</th>
+<th>Best travel time</th>
+<th>Longest median travel time</th>
+<th>METR</th>
+<th>Least uncertainty range</th>
+<th>Most uncertainty range</th>
+<th>MEUR</th>
+<th>Distance</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td>Casula to M2 Motorway</td>
+<td>0:36:56</td>
+<td>0:47:51</td>
+<td>1.124</td>
+<td>0:16:34</td>
+<td>0:44:11</td>
+<td>1.631</td>
+<td>32.8</td>
+</tr>
+<tr class="even">
+<td>M2 Motorway to Casula</td>
+<td>0:36:05</td>
+<td>0:47:30</td>
+<td>1.114</td>
+<td>0:15:41</td>
+<td>0:46:19</td>
+<td>1.57</td>
+<td>32.9</td>
+</tr>
+</tbody>
+</table></div>
+<p>The best travel times and lowest uncertainty travelling from Casula to the M2 Motorway were at midnight and 3am with a median travel time of 37 minutes and an interquartile range of 16 minutes, both slightly higher than 2019. The longest median travel times and most uncertain travel times were in the afternoon peak at 3 and 5pm, with a median travel time of 48 minutes and an interquartile range of 44 minutes. This reverses the finding of 2019 when the morning peak was more congested. Delays were most prominent between Parramatta and Carlingford.</p>
+<p>The best travel times and lowest uncertainty travelling from the M2 Motorway to Casula were at 4am with a median travel time of 36 minutes and an interquartile range of 15.5 minutes, slightly up on 2019. The longest travel times were at 3pm with 47.5 minutes and the greatest uncertainty were at 4pm with an interquartile range of 46 minutes, both well down from 2019. Like the journey from Casula, two peaks are present in the journey to Casula in the morning and afternoon respectively. Delays were most pronounced around Parramatta, Granville and Liverpool.</p>
+<p><img src="media/image26.PNG" style="width:100.0%"><br></p>
+</div>
+<div id="a3---blakehurst-to-pymble-pymble-to-blakehurst" class="section level2 unnumbered">
+<h2>A3 - Blakehurst to Pymble / Pymble to Blakehurst<a class="anchor" aria-label="anchor" href="#a3---blakehurst-to-pymble-pymble-to-blakehurst"><i class="fas fa-link"></i></a>
+</h2>
+<p>This route traverses Sydney from the intersection of Ryde Road and the Pacific Highway at Pymble to the Princes Highway at Blakehurst. It passes Ryde, Strathfield, Roselands and Hurstville along its way. It intersects with a number of other routes in this report including the M2, M4 and M5 motorways and the A34, A22 and A40.</p>
+<div class="inline-figure"><img src="media/image27.png" style="width:100.0%"></div>
+<div class="inline-table"><table style="width:100%;" class="table table-sm">
+<colgroup>
+<col width="14%">
+<col width="11%">
+<col width="18%">
+<col width="4%">
+<col width="20%">
+<col width="19%">
+<col width="4%">
+<col width="6%">
+</colgroup>
+<thead><tr class="header">
+<th>Direction</th>
+<th>Best travel time</th>
+<th>Longest median travel time</th>
+<th>METR</th>
+<th>Least uncertainty range</th>
+<th>Most uncertainty range</th>
+<th>MEUR</th>
+<th>Distance</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td>Blakehurst to Pymble</td>
+<td>0:36:08</td>
+<td>0:44:05</td>
+<td>1.107</td>
+<td>0:15:18</td>
+<td>0:34:16</td>
+<td>1.544</td>
+<td>30.5</td>
+</tr>
+<tr class="even">
+<td>Pymble to Blakehurst</td>
+<td>0:37:00</td>
+<td>0:48:44</td>
+<td>1.088</td>
+<td>0:18:00</td>
+<td>0:38:45</td>
+<td>1.338</td>
+<td>30.8</td>
+</tr>
+</tbody>
+</table></div>
+<p>The best travel times for journeys from Blakehurst to Pymble were at 4am with a median of 36 minutes, while the lowest uncertainty were 5am with an interquartile range of 15 minutes, both slightly down on 2019. The longest median travel times and most uncertainty were in the “third peak” at 2am with a median of 44 minutes and the greatest uncertainty in the afternoon at 5pm with an interquartile range of 34 minutes, 5 and 11 minutes down on 2019. There was also a prominent peak in the morning. Delays were most apparent around Roselands in the South of the root, whereas delays around Macquarie Park, where many office workers commute, were eased.</p>
+<p>The best travel times and lowest uncertainty travelling to Blakehurst were at 1pm and 11pm with a median of 37 minutes and an interquartile range of 18 minutes. The longest median travel times were at 3am with a median of 48 minutes, while the greatest uncertainty were in the afternoon peak at 5pm with an interquartile range of 39 minutes, down by 10.5 and 16 minutes, respectively. Delays were most apparent around Homebush.</p>
+<p>In both directions there is an evident early morning peak which, though more significant for southbound trips, is the most delayed period of the day. The reason the “third peak” has become the most delayed period was because of improved speeds in other part of the day rather than a deterioration in that period.</p>
+<p><img src="media/image28.PNG" style="width:100.0%"><br></p>
+</div>
+<div id="a34---liverpool-to-newtown-newtown-to-liverpool" class="section level2 unnumbered">
+<h2>A34 - Liverpool to Newtown / Newtown to Liverpool<a class="anchor" aria-label="anchor" href="#a34---liverpool-to-newtown-newtown-to-liverpool"><i class="fas fa-link"></i></a>
+</h2>
+<p>This route follows a path almost parallel but more southerly to the A22, passing Marrickville, Punchbowl and Milperra. It is known by names including Canterbury Road and Milperra Road along its length.</p>
+<div class="inline-figure"><img src="media/image29.png" style="width:100.0%"></div>
+<div class="inline-table"><table style="width:100%;" class="table table-sm">
+<colgroup>
+<col width="14%">
+<col width="11%">
+<col width="18%">
+<col width="4%">
+<col width="20%">
+<col width="19%">
+<col width="4%">
+<col width="6%">
+</colgroup>
+<thead><tr class="header">
+<th>Direction</th>
+<th>Best travel time</th>
+<th>Longest median travel time</th>
+<th>METR</th>
+<th>Least uncertainty range</th>
+<th>Most uncertainty range</th>
+<th>MEUR</th>
+<th>Distance</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td>Liverpool to Newtown</td>
+<td>0:31:19</td>
+<td>0:44:01</td>
+<td>1.198</td>
+<td>0:15:36</td>
+<td>0:48:29</td>
+<td>1.89</td>
+<td>26.1</td>
+</tr>
+<tr class="even">
+<td>Newtown to Liverpool</td>
+<td>0:29:30</td>
+<td>0:41:40</td>
+<td>1.159</td>
+<td>0:15:07</td>
+<td>1:56:24</td>
+<td>2.417</td>
+<td>27.3</td>
+</tr>
+</tbody>
+</table></div>
+<p>The best travel times and lowest uncertainty travelling from Liverpool to Newtown were at 3 and 4am with a median travel time of 31 minutes and an interquartile range of 15.5 minutes respectively, slightly down on 2019. The longest median travel times and most uncertain travel times were in the afternoon peak at 2 and 4pm with a median of 44 minutes and an interquartile range of 48 minutes, 2 and 8 minutes down from 2019, respectively. Delays at this time were mostly evenly spread along the route but slightly more apparent at Newtown and Stanmore.</p>
+<p>The best travel times and lowest uncertainty travelling from Newtown to Liverpool were at 4am and 9pm with a median travel time of 29.5 minutes and an interquartile range of 15 minutes, both several minutes better than 2019. The longest travel times and the greatest uncertainty were at 4pm with a median of 41 minutes and an interquartile range of nearly 2 hours, and improvement of 6 minutes and deterioration of nearly an hour on 2019, respectively. Delays were similarly distributed along the route but with a slight emphasis in the east.</p>
+<p>Unlike the A3 route, the A34 no longer indicates a “third peak” as strong as in 2019.</p>
+<p><img src="media/image30.PNG" style="width:100.0%"><br></p>
+</div>
+<div id="a36---broadway-to-georges-river-georges-river-to-broadway" class="section level2 unnumbered">
+<h2>A36 - Broadway to Georges River / Georges River to Broadway<a class="anchor" aria-label="anchor" href="#a36---broadway-to-georges-river-georges-river-to-broadway"><i class="fas fa-link"></i></a>
+</h2>
+<p>This route travels south from the inner city at Broadway (Glebe), skirting industrial areas at Alexandria and passing through the Street George region before meeting the A3 at Blakehurst. For most of its length it is known as the Princes Highway.</p>
+<div class="inline-figure"><img src="media/image31.png" style="width:100.0%"></div>
+<div class="inline-table"><table style="width:100%;" class="table table-sm">
+<colgroup>
+<col width="14%">
+<col width="11%">
+<col width="18%">
+<col width="4%">
+<col width="20%">
+<col width="19%">
+<col width="4%">
+<col width="6%">
+</colgroup>
+<thead><tr class="header">
+<th>Direction</th>
+<th>Best travel time</th>
+<th>Longest median travel time</th>
+<th>METR</th>
+<th>Least uncertainty range</th>
+<th>Most uncertainty range</th>
+<th>MEUR</th>
+<th>Distance</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td>Broadway to Georges River</td>
+<td>0:20:12</td>
+<td>0:27:32</td>
+<td>1.183</td>
+<td>0:07:43</td>
+<td>0:23:26</td>
+<td>2.074</td>
+<td>16.5</td>
+</tr>
+<tr class="even">
+<td>Georges River to Broadway</td>
+<td>0:19:24</td>
+<td>0:31:29</td>
+<td>1.327</td>
+<td>0:05:52</td>
+<td>0:32:19</td>
+<td>3.351</td>
+<td>16.5</td>
+</tr>
+</tbody>
+</table></div>
+<p>The best travel times and lowest uncertainty travelling from Broadway to Georges River were at 2am with a median travel time of 20 minutes, and an interquartile range of 7.5 minutes, improvements of about 2 minutes on 2019. The longest median travel times were in the afternoon peak at 4pm with a median of 27.5 minutes and the most uncertain time were in the morning peak at 9pm experiencing an interquartile range of 23 minutes, improvements of 3 and 6.5 minutes on 2019, respectively. Travel times and uncertainty were higher throughout business hours than other times of the day with delays most apparent around Tempe and St Peters.</p>
+<p>The best travel times and lowest uncertainty travelling from Georges River to Broadway were at 3 and 2am, respectively, with a median travel time of 19.5 minutes and an interquartile range of 6 minutes, similar to 2019. The longest median travel times and greatest uncertainty were in the afternoon peak at 3 and 1pm, respectively, with a median of 31 minutes and an interquartile range of 32 minutes, both reductions of 5-6 minutes on 2019 when the worst delays were in the morning peak. Like the opposite direction, travel times and uncertainty were heightened throughout business hours. Delays were most significant at Tempe and at Enmore.</p>
+<p><img src="media/image32.PNG" style="width:100.0%"><br></p>
+</div>
+<div id="a40---baulkham-hills-to-rozelle-rozelle-to-baulkham-hills" class="section level2 unnumbered">
+<h2>A40 - Baulkham Hills to Rozelle / Rozelle to Baulkham Hills<a class="anchor" aria-label="anchor" href="#a40---baulkham-hills-to-rozelle-rozelle-to-baulkham-hills"><i class="fas fa-link"></i></a>
+</h2>
+<p>This route connects the inner city (Rozelle) and the north-west of Sydney passing through Gladesville, Rydalmere and Toongabbie along its way. It is known at different points as Victoria Road, James Ruse Drive and Old Windsor Road.</p>
+<div class="inline-figure"><img src="media/image33.png" style="width:100.0%"></div>
+<div class="inline-table"><table style="width:100%;" class="table table-sm">
+<colgroup>
+<col width="14%">
+<col width="11%">
+<col width="18%">
+<col width="4%">
+<col width="20%">
+<col width="19%">
+<col width="4%">
+<col width="6%">
+</colgroup>
+<thead><tr class="header">
+<th>Direction</th>
+<th>Best travel time</th>
+<th>Longest median travel time</th>
+<th>METR</th>
+<th>Least uncertainty range</th>
+<th>Most uncertainty range</th>
+<th>MEUR</th>
+<th>Distance</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td>Baulkham Hills to Rozelle</td>
+<td>0:28:05</td>
+<td>0:42:46</td>
+<td>1.295</td>
+<td>0:09:02</td>
+<td>0:33:52</td>
+<td>2.396</td>
+<td>27.8</td>
+</tr>
+<tr class="even">
+<td>Rozelle to Baulkham Hills</td>
+<td>0:31:49</td>
+<td>0:45:22</td>
+<td>1.138</td>
+<td>0:10:53</td>
+<td>0:43:23</td>
+<td>2.04</td>
+<td>28.1</td>
+</tr>
+</tbody>
+</table></div>
+<p>The best travel times and lowest uncertainty for journeys from Baulkham Hills to Rozelle were experienced at 1am with a median travel time of 28 minutes and an interquartile range of 9 minutes, respectively 5 and 4 minutes below 2019 levels. The longest median travel times and most uncertainty were in the morning peak at 8am with a median of 42 minutes and an interquartile range of 34 minutes, a 5.5- and 17-minute reduction, respectively. Delays were most apparent at Drummoyne but were also apparent at Northmead and Gladesville.</p>
+<p>The best travel times and lowest uncertainty travelling to Baulkham Hills were at 11pm with a median travel time of 32 minutes and an interquartile range of 11 minutes, similar to 2019. The longest median travel times and greatest uncertainty were at 4 and 5pm, respectively, in the afternoon peak with a median of 45 minutes and an interquartile range of 43 minutes, improvements of 8 and 19.5 minutes. Delays were most apparent at Ryde, Rydalmere and Toongabbie.</p>
+<p>Both directions experienced elevated uncertainty throughout business hours, especially in the direction to Rozelle.</p>
+<p><img src="media/image34.PNG" style="width:100.0%"><br></p>
+</div>
+<div id="a6---carlingford-to-padstow-padstow-to-carlingford" class="section level2 unnumbered">
+<h2>A6 - Carlingford to Padstow / Padstow to Carlingford<a class="anchor" aria-label="anchor" href="#a6---carlingford-to-padstow-padstow-to-carlingford"><i class="fas fa-link"></i></a>
+</h2>
+<p>This route traverses Sydney linking Carlingford and Padstow roughly parallel to but more Westerly than the A3. It passes Rydalmere, Lidcombe and Bankstown. This route intersects with the M2, M4 and M7 motorways and passes the Chullora precinct.</p>
+<div class="inline-figure"><img src="media/image35.png" style="width:100.0%"></div>
+<div class="inline-table"><table style="width:100%;" class="table table-sm">
+<colgroup>
+<col width="14%">
+<col width="11%">
+<col width="18%">
+<col width="4%">
+<col width="20%">
+<col width="19%">
+<col width="4%">
+<col width="6%">
+</colgroup>
+<thead><tr class="header">
+<th>Direction</th>
+<th>Best travel time</th>
+<th>Longest median travel time</th>
+<th>METR</th>
+<th>Least uncertainty range</th>
+<th>Most uncertainty range</th>
+<th>MEUR</th>
+<th>Distance</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td>Carlingford to Padstow</td>
+<td>0:22:48</td>
+<td>0:29:25</td>
+<td>1.099</td>
+<td>0:10:23</td>
+<td>0:21:45</td>
+<td>1.47</td>
+<td>19.9</td>
+</tr>
+<tr class="even">
+<td>Padstow to Carlingford</td>
+<td>0:22:52</td>
+<td>0:30:15</td>
+<td>1.199</td>
+<td>0:11:21</td>
+<td>0:27:50</td>
+<td>1.683</td>
+<td>20.1</td>
+</tr>
+</tbody>
+</table></div>
+<p>The best travel times and lowest uncertainty travelling from Carlingford were at 10 and 8pm with a median travel time of 23 minutes and an interquartile range of 10 minutes, similar to 2019. The longest median travel times were again at 2am with a median of 29 minutes and the most uncertainty now also at 2am with an interquartile range of 22 minutes, 3 and 8 minutes less than 2019. There was also a distinct morning peak. Delays were most apparent at Silverwater and Bankstown.</p>
+<p>The best travel times and lowest uncertainty travelling to Carlingford were at 4 and 5am with a median travel time of 23 minutes and an interquartile range of 11 minutes, similar to 2019. The longest median travel times and greatest uncertainty were at 5 and 3pm in the afternoon peak with a median of 30 minutes and an interquartile range of 28 minutes, 5 and 8 minutes down on 2019. Delays were most apparent at Punchbowl and Dundas Valley. The afternoon peak is now larger than the morning peak.</p>
+<p>Like the A3 and the A6 still shows a third early morning peak in both directions. This ‘third peak’ showed delays spread throughout the route but slightly more apparent at locations that also saw delays during peak periods. The reasons for this third peak are not apparent.</p>
+<p><img src="media/image36.PNG" style="width:100.0%"><br></p>
+</div>
+<div id="m1-north---cahill-expressway-to-m2-m2-to-cahill-expressway" class="section level2 unnumbered">
+<h2>M1 (North) - Cahill Expressway to M2 / M2 to Cahill Expressway<a class="anchor" aria-label="anchor" href="#m1-north---cahill-expressway-to-m2-m2-to-cahill-expressway"><i class="fas fa-link"></i></a>
+</h2>
+<p>This route links the Sydney CBD to the Lane Cove Tunnel at the beginning of the M2 via the Sydney Harbour Tunnel, the Warringah Freeway and the Gore Hill Freeway. It is a major commuter route but somewhat less important for freight.</p>
+<div class="inline-figure"><img src="media/image37.png" style="width:100.0%"></div>
+<div class="inline-table"><table style="width:100%;" class="table table-sm">
+<colgroup>
+<col width="14%">
+<col width="11%">
+<col width="18%">
+<col width="4%">
+<col width="20%">
+<col width="19%">
+<col width="4%">
+<col width="6%">
+</colgroup>
+<thead><tr class="header">
+<th>Direction</th>
+<th>Best travel time</th>
+<th>Longest median travel time</th>
+<th>METR</th>
+<th>Least uncertainty range</th>
+<th>Most uncertainty range</th>
+<th>MEUR</th>
+<th>Distance</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td>Cahill Expressway to M2</td>
+<td>0:05:58</td>
+<td>0:09:20</td>
+<td>1.18</td>
+<td>0:00:44</td>
+<td>0:08:47</td>
+<td>5.333</td>
+<td>7.3</td>
+</tr>
+<tr class="even">
+<td>M2 to Cahill Expressway</td>
+<td>0:05:42</td>
+<td>0:08:45</td>
+<td>1.222</td>
+<td>0:00:37</td>
+<td>0:18:16</td>
+<td>12.58</td>
+<td>7.3</td>
+</tr>
+</tbody>
+</table></div>
+<p>The best travel times and lowest uncertainty travelling from the CBD (Cahill Expressway) to the M2 were at 4am with a median travel time of 44 seconds and an interquartile range of 1.5 minutes, similar to 2019. The longest median travel times and greatest uncertainty were at 3pm with a median of 9.5 minutes and an interquartile range of nearly 9 minutes. Both best and worst times were similar to 2019 even whilst the METR improved and MEUR deteriorated substantially. Delays were more apparent on the Cahill Expressway and in the Sydney Harbour Tunnel.</p>
+<p>The best travel times and lowest uncertainty travelling from the M2 to the CBD were at 5am with a median travel time of 6 minutes and an interquartile range of less than a minute. The longest median travel times and greatest uncertainty were at 6pm with a median travel time of 9 minutes and an interquartile range of just over 18 minutes, 4.5 and 12 minutes down on 2019. There appear to be spikes in uncertainty throughout the day, but this is likely just due to relatively sparse data. Delays in both peaks were apparent in the Sydney Harbour Tunnel but not on Warringah Expressway near Neutral Bay and North Sydney as in 2019.</p>
+<p><img src="media/image38.PNG" style="width:100.0%"><br></p>
+</div>
+<div id="m1-south---cahill-expressway-to-m5-m5-to-cahill-expressway" class="section level2 unnumbered">
+<h2>M1 (South) - Cahill Expressway to M5 / M5 to Cahill Expressway<a class="anchor" aria-label="anchor" href="#m1-south---cahill-expressway-to-m5-m5-to-cahill-expressway"><i class="fas fa-link"></i></a>
+</h2>
+<p>This route travels between the east of the CBD and M5 near Sydney Airport via the Eastern Distributor, South Dowling Street and General Holmes Drive.</p>
+<div class="inline-figure"><img src="media/image39.png" style="width:100.0%"></div>
+<div class="inline-table"><table style="width:100%;" class="table table-sm">
+<colgroup>
+<col width="14%">
+<col width="11%">
+<col width="18%">
+<col width="4%">
+<col width="20%">
+<col width="19%">
+<col width="4%">
+<col width="6%">
+</colgroup>
+<thead><tr class="header">
+<th>Direction</th>
+<th>Best travel time</th>
+<th>Longest median travel time</th>
+<th>METR</th>
+<th>Least uncertainty range</th>
+<th>Most uncertainty range</th>
+<th>MEUR</th>
+<th>Distance</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td>Cahill Expressway to M5</td>
+<td>0:10:14</td>
+<td>0:13:47</td>
+<td>1.101</td>
+<td>0:02:16</td>
+<td>0:10:56</td>
+<td>2.415</td>
+<td>12.1</td>
+</tr>
+<tr class="even">
+<td>M5 to Cahill Expressway</td>
+<td>0:10:18</td>
+<td>0:15:05</td>
+<td>1.092</td>
+<td>0:02:04</td>
+<td>0:18:20</td>
+<td>2.213</td>
+<td>12.0</td>
+</tr>
+</tbody>
+</table></div>
+<p>The best travel times and lowest uncertainty travelling from the CBD (Cahill Expressway) to the M5 were at midnight and 5am with a median travel time of over 10 minutes and an interquartile range of 2 minutes, similar to 2019. The longest median travel times and greatest uncertainty were at 6pm with a median of 14 minutes and an interquartile range of 11 minutes, both marked improvements (5 and 7 minutes) on 2019. Delays were most apparent at the northerly and southerly extremes of the route on General Holmes Drive and the Eastern Distributor.</p>
+<p>The best travel times and lowest uncertainty travelling from the M5 to the CBD (Cahill Expressway) were at 9 and 8 pm with a median travel time of over 10 minutes and an interquartile range of 2 minutes. The longest median travel times were in the morning peak at 7am with a median of nearly 15 minutes (12 minutes down on 2019), and uncertainty at 9am with an interquartile range of over 18 minutes (16 less than 2019). Delays in both peaks were most apparent in the southerly part of the route with particular delays near where General Holmes Drive meets Southern Cross Drive.</p>
+<p>Like the M1 North, journeys towards the CBD showed much more distinct peak periods than the journey out of the CBD.</p>
+<p><img src="media/image40.PNG" style="width:100.0%"><br></p>
+</div>
+<div id="m2---m1-to-m7-m7-to-m1" class="section level2 unnumbered">
+<h2>M2 - M1 to M7 / M7 to M1<a class="anchor" aria-label="anchor" href="#m2---m1-to-m7-m7-to-m1"><i class="fas fa-link"></i></a>
+</h2>
+<p>This route runs between the Hills District and Lane Cove connecting the M7 and M2 via the M2 motorway and the Lane Cove Tunnel. It is an important route for both commuter and freight traffic.</p>
+<div class="inline-figure"><img src="media/image41.png" style="width:100.0%"></div>
+<div class="inline-table"><table style="width:100%;" class="table table-sm">
+<colgroup>
+<col width="14%">
+<col width="11%">
+<col width="18%">
+<col width="4%">
+<col width="20%">
+<col width="19%">
+<col width="4%">
+<col width="6%">
+</colgroup>
+<thead><tr class="header">
+<th>Direction</th>
+<th>Best travel time</th>
+<th>Longest median travel time</th>
+<th>METR</th>
+<th>Least uncertainty range</th>
+<th>Most uncertainty range</th>
+<th>MEUR</th>
+<th>Distance</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td>M1 to M7</td>
+<td>0:17:24</td>
+<td>0:20:21</td>
+<td>1.039</td>
+<td>0:03:40</td>
+<td>0:14:47</td>
+<td>1.863</td>
+<td>24.5</td>
+</tr>
+<tr class="even">
+<td>M7 to M1</td>
+<td>0:16:50</td>
+<td>0:22:06</td>
+<td>1.074</td>
+<td>0:03:28</td>
+<td>0:20:31</td>
+<td>2.177</td>
+<td>24.3</td>
+</tr>
+</tbody>
+</table></div>
+<p>The best travel times travelling from the M1 to the M7 were at 7pm with a median travel time of over 17 minutes and the lowest uncertainty were at 7am with an interquartile range of nearly 4 minutes. However, there was little variation from 2am to 2pm and no morning peak. The longest median travel times and greatest uncertainty were at 4pm with a median of 20 minutes and an interquartile range of 15 minutes, and an improvement of 4.5 minutes on 2019. Delays were most apparent at the eastern end of the route and 2019 notable delays near Windsor Road were still visible but only in the afternoon peak. Delays near Pennant Hills Rd were no longer apparent.</p>
+<p>The best travel times and lowest uncertainty travelling from the M7 to the M1 (Gore Hill Expressway) were at 5am with a median travel time of 17 minutes and an interquartile range of 3.5 minutes. The longest median travel times and greatest uncertainty was 22 minutes at 8am and the greatest uncertainty interquartile range of 20.5 minutes at 8am, similar to 2019. There was also a distinct peak of uncertainty, but not median time, during the evening. Delays were most apparent when approaching to the Lane Cove Tunnel at Macquarie Park.</p>
+<p><img src="media/image42.PNG" style="width:100.0%"><br></p>
+</div>
+<div id="m4---glenbrook-to-strathfield-strathfield-to-glenbrook" class="section level2 unnumbered">
+<h2>M4 - Glenbrook to Strathfield / Strathfield to Glenbrook<a class="anchor" aria-label="anchor" href="#m4---glenbrook-to-strathfield-strathfield-to-glenbrook"><i class="fas fa-link"></i></a>
+</h2>
+<p>This route runs connects the A32 at Glenbrook with the former terminus of the M4 at Strathfield. It intersects with several north–south routes in this report including the M7, A28 and A6. It does not incorporate Parramatta Road or the City West Link, nor the M4 East tunnel that opened in July 2020.</p>
+<div class="inline-figure"><img src="media/image43.png" style="width:100.0%"></div>
+<div class="inline-table"><table style="width:100%;" class="table table-sm">
+<colgroup>
+<col width="14%">
+<col width="11%">
+<col width="18%">
+<col width="4%">
+<col width="20%">
+<col width="19%">
+<col width="4%">
+<col width="6%">
+</colgroup>
+<thead><tr class="header">
+<th>Direction</th>
+<th>Best travel time</th>
+<th>Longest median travel time</th>
+<th>METR</th>
+<th>Least uncertainty range</th>
+<th>Most uncertainty range</th>
+<th>MEUR</th>
+<th>Distance</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td>Glenbrook to Strathfield</td>
+<td>0:31:28</td>
+<td>0:33:47</td>
+<td>1.031</td>
+<td>0:04:05</td>
+<td>0:12:23</td>
+<td>1.543</td>
+<td>45.8</td>
+</tr>
+<tr class="even">
+<td>Strathfield to Glenbrook</td>
+<td>0:31:26</td>
+<td>0:35:57</td>
+<td>1.025</td>
+<td>0:05:35</td>
+<td>0:14:13</td>
+<td>1.199</td>
+<td>45.8</td>
+</tr>
+</tbody>
+</table></div>
+<p>The best median travel times and lowest uncertainty travelling from Glenbrook to Strathfield were at 4am with a median travel time of 31 minutes and an interquartile range nearly 4 minutes. The longest median travel times and greatest uncertainty were in the morning peak at 7am with a median nearly 36 minutes and an interquartile range of just over 12 minutes, similar to 2019. Delays, though mild, were distributed evenly along the route.</p>
+<p>The best median travel times from Strathfield to Glenbrook were 31 minutes at 4am and the lowest uncertainty were at 9am with an interquartile range of 5.5 minutes. The longest median travel times and greatest uncertainty were in the afternoon peak at 5pm with a median of 36 minutes and an interquartile range of just over 14 minutes, both slight improvements on 2019. Delays in the afternoon peak were most apparent between Silverwater and Wentworthville.</p>
+<p>Travel times and uncertainty were very similar in both directions throughout most of the day except during the morning peak heading towards Strathfield or the afternoon peak heading towards Glenbrook. Delays in median travel times were more apparent heading towards Glenbrook.</p>
+<p><img src="media/image44.PNG" style="width:100.0%"><br></p>
+</div>
+<div id="m5---hume-motorway-to-m1-m1-to-hume-motorway" class="section level2 unnumbered">
+<h2>M5 - Hume Motorway to M1 / M1 to Hume Motorway<a class="anchor" aria-label="anchor" href="#m5---hume-motorway-to-m1-m1-to-hume-motorway"><i class="fas fa-link"></i></a>
+</h2>
+<p>This route follows the M5 Motorway between the Hume Motorway at Casula and the M1 at General Holmes Drive. It is a major commuter route and also services freight traffic in areas around the Airport and Port Botany.</p>
+<div class="inline-figure"><img src="media/image45.png" style="width:100.0%"></div>
+<div class="inline-table"><table style="width:100%;" class="table table-sm">
+<colgroup>
+<col width="14%">
+<col width="11%">
+<col width="18%">
+<col width="4%">
+<col width="20%">
+<col width="19%">
+<col width="4%">
+<col width="6%">
+</colgroup>
+<thead><tr class="header">
+<th>Direction</th>
+<th>Best travel time</th>
+<th>Longest median travel time</th>
+<th>METR</th>
+<th>Least uncertainty range</th>
+<th>Most uncertainty range</th>
+<th>MEUR</th>
+<th>Distance</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td>Hume Motorway to M1</td>
+<td>0:20:55</td>
+<td>0:27:28</td>
+<td>1.068</td>
+<td>0:05:50</td>
+<td>0:27:11</td>
+<td>1.816</td>
+<td>29.3</td>
+</tr>
+<tr class="even">
+<td>M1 to Hume Motorway</td>
+<td>0:21:09</td>
+<td>0:32:19</td>
+<td>1.07</td>
+<td>0:04:00</td>
+<td>0:29:14</td>
+<td>2.227</td>
+<td>29.3</td>
+</tr>
+</tbody>
+</table></div>
+<p>The best median travel times and lowest uncertainty for journeys from the Hume Motorway to the M1 were 21 minutes at 4am and an interquartile range of 6 minutes. The longest median travel times and greatest uncertainty was 27 minutes in the morning peak at 7am with an interquartile range of over 27 minutes, 10 and 5 minutes less, respectively, than in 2019. Delays were most apparent at the easterly end of the route, especially towards the mouth of the M5 tunnel. There was another, smaller afternoon peak.</p>
+<p>The best median travel times and lowest uncertainty for journeys from the M1 to the Hume Motorway were at 5am at 21 minutes an interquartile range of nearly 4 minutes. The longest median travel times and lowest uncertainty were at 5pm with a median of just over 32 minutes and an interquartile range of 29 minutes, down 9 and 4 minutes, respectively, on 2019. Delays were again most apparent at the easterly end of the route, but more strikingly in the west between Milperra and Moorebank.</p>
+<p>Unlike the eastbound route, the westbound route exhibited no significant morning travel peak. However, there was a clear heightened uncertainty in the early morning which was also evident in 2019.</p>
+<p><img src="media/image46.PNG" style="width:100.0%"><br></p>
+</div>
+<div id="m7---m2-to-m5-m5-to-m2" class="section level2 unnumbered">
+<h2>M7 - M2 to M5 / M5 to M2<a class="anchor" aria-label="anchor" href="#m7---m2-to-m5-m5-to-m2"><i class="fas fa-link"></i></a>
+</h2>
+<p>This route follows the M7 Motorway between its confluence with the M2 in the Hills District and Hume Motorway at Casula, skirting much of Western Sydney and crossing the M4 Motorway. It is a major route for intercity freight including trips that do not start or end in Sydney.</p>
+<div class="inline-figure"><img src="media/image47.png" style="width:100.0%"></div>
+<div class="inline-table"><table style="width:100%;" class="table table-sm">
+<colgroup>
+<col width="14%">
+<col width="11%">
+<col width="18%">
+<col width="4%">
+<col width="20%">
+<col width="19%">
+<col width="4%">
+<col width="6%">
+</colgroup>
+<thead><tr class="header">
+<th>Direction</th>
+<th>Best travel time</th>
+<th>Longest median travel time</th>
+<th>METR</th>
+<th>Least uncertainty range</th>
+<th>Most uncertainty range</th>
+<th>MEUR</th>
+<th>Distance</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td>M2 to M5</td>
+<td>0:23:47</td>
+<td>0:33:01</td>
+<td>1.058</td>
+<td>0:02:39</td>
+<td>0:19:47</td>
+<td>2.07</td>
+<td>38.4</td>
+</tr>
+<tr class="even">
+<td>M5 to M2</td>
+<td>0:24:07</td>
+<td>0:29:48</td>
+<td>1.046</td>
+<td>0:03:07</td>
+<td>0:18:09</td>
+<td>2.066</td>
+<td>38.5</td>
+</tr>
+</tbody>
+</table></div>
+<p>The best median travel times for journeys from the M2 to the M5 (Hume Motorway) was nearly 24 minutes at 1am and the lowest uncertainty were at 4am with an interquartile range of 3 minutes. The longest median travel times and greatest uncertainty were in the afternoon peak at 4pm with a median of 33 minutes and an interquartile range of near 20 minutes, largely unchanged on 2019. Delays were most apparent midway along the route around Eastern Creek, south of the M4 Motorway. Travel time and uncertainty were relatively stable throughout the day except the peak in the afternoon.</p>
+<p>The best median travel times from the M5 to the M2 were at 1am with a median of 24 minutes and the lowest uncertainty at 4am with an interquartile range of just over 3 minutes. The longest median travel times and highest uncertainty were in the morning peak at 6am with a median nearly 30 minutes and an interquartile range of 18 minutes, improvement on 2019 of about 6 minutes in both cases. There was also a smaller peak of uncertainty in the afternoon. Delays were most apparent near the beginning of the M7 near Baulkham Hills, but also apparent just south of Cecil Park.</p>
+<p><img src="media/image48.PNG" style="width:100.0%"><br></p>
+
+</div>
+</div>
+  <div class="chapter-nav">
+<div class="prev"><a href="citywide-congestion-index-results.html">Citywide congestion index results</a></div>
+<div class="next"><a href="melbourne.html">Melbourne</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#sydney">Sydney</a></li>
+<li><a class="nav-link" href="#a22---glebe-to-liverpool-liverpool-to-glebe">A22 - Glebe to Liverpool / Liverpool to Glebe</a></li>
+<li><a class="nav-link" href="#a28---casula-to-m2-motorway-m2-motorway-to-casula">A28 - Casula to M2 Motorway / M2 Motorway to Casula</a></li>
+<li><a class="nav-link" href="#a3---blakehurst-to-pymble-pymble-to-blakehurst">A3 - Blakehurst to Pymble / Pymble to Blakehurst</a></li>
+<li><a class="nav-link" href="#a34---liverpool-to-newtown-newtown-to-liverpool">A34 - Liverpool to Newtown / Newtown to Liverpool</a></li>
+<li><a class="nav-link" href="#a36---broadway-to-georges-river-georges-river-to-broadway">A36 - Broadway to Georges River / Georges River to Broadway</a></li>
+<li><a class="nav-link" href="#a40---baulkham-hills-to-rozelle-rozelle-to-baulkham-hills">A40 - Baulkham Hills to Rozelle / Rozelle to Baulkham Hills</a></li>
+<li><a class="nav-link" href="#a6---carlingford-to-padstow-padstow-to-carlingford">A6 - Carlingford to Padstow / Padstow to Carlingford</a></li>
+<li><a class="nav-link" href="#m1-north---cahill-expressway-to-m2-m2-to-cahill-expressway">M1 (North) - Cahill Expressway to M2 / M2 to Cahill Expressway</a></li>
+<li><a class="nav-link" href="#m1-south---cahill-expressway-to-m5-m5-to-cahill-expressway">M1 (South) - Cahill Expressway to M5 / M5 to Cahill Expressway</a></li>
+<li><a class="nav-link" href="#m2---m1-to-m7-m7-to-m1">M2 - M1 to M7 / M7 to M1</a></li>
+<li><a class="nav-link" href="#m4---glenbrook-to-strathfield-strathfield-to-glenbrook">M4 - Glenbrook to Strathfield / Strathfield to Glenbrook</a></li>
+<li><a class="nav-link" href="#m5---hume-motorway-to-m1-m1-to-hume-motorway">M5 - Hume Motorway to M1 / M1 to Hume Motorway</a></li>
+<li><a class="nav-link" href="#m7---m2-to-m5-m5-to-m2">M7 - M2 to M5 / M5 to M2</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+          
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong><div class="inline-figure">
+<img src="media/bitre.png" style="width:100.0%">
+Congestion Report 2020</div></strong>" was written by Richard Green and Weihua Chen. It was last built on 2021-11-22.</p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer>
+</body>
+</html>
